@@ -26,7 +26,7 @@
 int main()
 {
   // initialize GPIO and debugger
-  cc_init(24,27,28);
+  cc_init(8,0,2);
   // enter debug mode
   cc_enter();
   // get ChipID :
